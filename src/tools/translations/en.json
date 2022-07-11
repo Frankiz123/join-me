@@ -1,0 +1,435 @@
+{
+  "logOn": {
+    "phoneNr": {
+      "textIntro": "Ready to meet new people & do new things?",
+      "labelPhoneNr": "Mobile number",
+      "linkGdpr": {
+        "Text": "By logging in, you accept our",
+        "BtnText": "privacy statement"
+      }
+    },
+    "code": {
+      "TextIntro": "Enter code received on sms",
+      "linkHelp": {
+        "Text": "No code received?",
+        "BtnText": "Try again"
+      },
+      "btnNext": "Next",
+      "btnTryAgain": "Try again",
+      "ErrorText": "The code does not work"
+    },
+    "notification": {
+      "title": "JoinMe would like to send you notifications",
+      "main": "Notification may include sounds and symbol marks. These can be configured in settings.",
+      "no": "Not allowed",
+      "yes": "Allow"
+    },
+    "location": {
+      "title": "Allow Joinme to use your location",
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "firstTime": {
+    "aboutyou": {
+      "title": "Tell us briefly about yourself",
+      "firstName": "First name",
+      "lastName": "Surname",
+      "yearOfBirth": "Year of birth",
+      "gender": {
+        "label": "Gender",
+        "options": {
+          "female": "Woman",
+          "male": "Man",
+          "Other": "Other"
+        }
+      },
+      "photo": "Upload a profile picture - if you want",
+      "btnNext": "Next",
+      "btnAll": "All",
+      "btnShort1": "Shortcut#1",
+      "btnShort2": "Short#2",
+      "btnShort3": "Short#3",
+      "missingFirstName": "First name missing",
+      "missingLastName": "Last name missing"
+    },
+    "getStarted": {
+      "title": "All set",
+      "btnActivities": "Find activities",
+      "linkLabel": "Invited by an organization?"
+    },
+    "connectToOrganisation": {
+      "findYourOrg": {
+        "firstTitle": "Have you been invited?",
+        "secoundTitle": "Find your organization",
+        "labelSearch": "Search for your organization",
+        "btn": "OK"
+      },
+      "ConfirmConnectionToOrg": {
+        "title": "You are now added to the organization ",
+        "btn": "OK"
+      },
+      "chooseGroups": {
+        "title": "Select {value}",
+        "btn": "Next"
+      },
+      "allSet": {
+        "title": "All",
+        "btnActivities": "Find activities"
+      }
+    }
+  },
+  "myProfile": {
+    "myProfile": {
+      "title": "My profile",
+      "firstName": "First name",
+      "lastName": "Surname",
+      "yearOfBirth": "What year are you born?",
+      "photo": "Upload a profile picture - if you want",
+      "btnSave": "Save"
+    },
+    "connectedToOrganisation": {
+      "title": "My organisations",
+      "linkText": "Invited by an organization?"
+    },
+    "myOrganisationsMyGroups–1": {
+      "linkLeaveOrg": "Leave organization",
+      "nrOfMembers": "members",
+      "checkBoxWithNrOfMembers": "{valueNameOfGrp} ({valueNrOfMember} members)",
+      "btnSave": "Save"
+    },
+    "welcomeChooseGroups": {
+      "title": "Select",
+      "btnNext": "Next"
+    },
+   
+    "myProfileMyGroups–4": {
+      "linkLeaveOrg": "Leave organization",
+      "linkLeaveGrp": "Leave group",
+      "nrOfMembers": " members"
+    },
+    "groupIsDeleted": {
+      "title": "The group '{value}' has been deleted by the administrator",
+      "body": "We hope you still want to meet up for things ti do",
+      "btn": "OK"
+    },
+    "alertPhoto":{
+      "addPhoto":"Add photo",
+      "choose":"Choose how you want to add the photo",
+      "camera":"Open Camera?",
+      "okSettings":"Click Ok Go To App Setting",
+      "gallery":"Open gallery",
+      "accessGallery":"Allow access to gallery?",
+      "settingsGallery":"Click Open Settings to navigate to gallery settings",
+      "settings":"Open settings",
+      "useCam":"Use camera",
+      "cancel":"Cancel"
+    }
+  },
+  "activitiesList": {
+    "noInternet":"No connection :-(",
+    "ActivityList": {
+      "title": "You're invited!",
+      "linkTextMyEvents": "Your events ",
+      "sponsorLink": "Places to meet",
+      "sponsorLink2": "Your events",
+      "orderBy": {
+        "newest": "Latest invite",
+         "online": "Online",
+        "closest": "Nearest my location",
+        "nextup": "Next up",
+        "near": "Nearby:",
+        "distance":"Distance",
+        "latestInvite": "Latest invite"
+        
+      },
+      "card": {
+        "regularActivities": {
+          "titleInv": "{firstName} invites {gender}"
+        },
+        "proActivities": {
+          "titleInvLessThenTwoGrps": "{grpHowIsInv} invites {grp1} and {grp2}",
+          "titleInvMoreThenTwoGrps": "{grpHowIsInv} invites {grp1}, {grp2} + {nrOfOtherGrps} others"
+        },
+        "SponsoredActivities": {
+          "tagLabel": "Places to meet",
+          "titleInv": "{sponsorName} invites {grpName}"
+        },
+        "labelTimeToEvent": "In ",
+       "labelTimeToEvent2": " days",
+        "labelDistance": "{value} km",
+        "btnNrOfAttendiees": " attending",
+        "btnNrOfAttendieesImAttending": "You + ",
+        "labelMaxNrOfAttendees": "Max ",
+        "labelMaxNrOfAttendees2": " persons",
+        "status": {
+          "full": "Full",
+          "canceled": "Cancelled"
+        }
+      },
+      "emptylist": {
+        "title": "No activities are available in your area right now",
+        "titlePermission":"For activities nearby - allow JoinMe access to your location",
+        "titleTurnOffLocation":"For activities nearby - make sure you have your location activated",
+        "placesToTitles": "No places to meet are available in your area right now",
+        "body": "Create an invite to get thing going!",
+        "btnInv": "Create an invite to get thing going!",
+        "btnPerm":"Share location",
+        "btnTurn":"Turn on location",
+        "noevents": "You have no upcoming events"
+      }
+    }
+  },
+  "oneActivity": {
+    "activity": {
+      "titleInvLessThenTwoGrps": "{grpHowIsInv} invites {grp1} and {grp2}",
+      "titleInvMoreThenTwoGrps": "{grpHowIsInv} invites {grp1}, {grp2} + {nrOfOtherGrps} others",
+      "labelMaxNrOfAttendees": "Max ",
+      "labelMaxNrOfAttendees2": "persons",
+      "labelValue": "4",
+      "labelImAttends": " 3 attending",
+      "btnYouPlus": "You +",
+      "labelAttendee": "{value} will",
+      "labelComment": "{value} comments",
+      "labelUpdate": "Updates {dd. MMMM yyyy HH:mm}",
+      "labelQuestions": "Questions?",
+      "btnJoinEvent": "Join",
+      "labelImAttending": "You are attending",
+      "labelCanceld": "Cancelled",
+      "labelFull": "Full",
+      "labelSignOff": "Cancel",
+      "labelCallender": "Add to calendar",
+      "labelRepport": "Report as inappropriate",
+      "reasonText":"Is this event inappropriate?",
+      "labelEditEvent": "Edit my activity",
+      "SponsoredActivities": {
+        "tagLabel": "Places to meet",
+        "btnConncetedEvent": " inviterer dit",
+        "btnCreateEvent": "Invite others to tag along!"
+      }
+    },
+    "Comments": {
+      "nrOfComments": "  comments",
+      "btnJoinEvent": "Join!",
+      "linkTextTransaltion": "See translation",
+      "linkTextRepport": "Report as inappropriate",
+      "reasonText":"Is this comment inappropriate?",
+      "reasonTextSuccess":"Thank you!\nWe will look into it!",
+      "linkTextEditComment": "Edit my comment",
+      "linkTextDeleteComment": "Delete my comment",
+      "btnPostComment": "Post",
+      "btnOK": "OK",
+      "removed":"Comment removed"
+    },
+    "Attendies": {
+      "btnJoinEvent": "Join!"
+    }
+  },
+  "createActivity": {
+    "suggestList": [
+      "Have a coffee",
+      "Cinema",
+      "Go for a walk",
+      "Exercise",
+      "Lunch",
+      "A beer"
+    ],
+    "buttonList": [
+      "All",
+      "#Shortcut1",
+      "#Short2"
+    ],
+    "newList": [
+      "#Shortcut3",
+      "#Short4"
+    ],
+    "Name": {
+      "title": "Invite!",
+      "labelName": "What type of event?",
+      "btnNext": "Next",
+      "missingName": "Name of the event is missing"
+    },
+    "detail":{
+      "goingbtn":"Not going",
+      "attendingbtn":"You are attending",
+      "joinnow":"Join!",
+      "updated": "Updated"
+    },
+    "Groups": {
+      "title": "Who?",
+      "Textone": "Everyone",
+      "Texttwo": "abc",
+      "Textthree": "SIT",
+      "Textfourth":"Everyone from ",
+    },
+    "createShortcuts": {
+      "title": "Velg snarveier",
+      "text":"Hoyskolen Fjord og Fjell",
+      "text2":"Rode Kors",
+      "btnOK": "OK",
+      "mineGroup":"Rediger mine grupper"
+
+    },
+    "Subgroups": {
+      "btnNext": "Next",
+      "text": "Alle pA Hoyskolen Fjord og Fjell",
+      "label1": "Study",
+      "text1": "Machine",
+      "label2": "Linjeforening",
+      "text2": "The machine students",
+      "label3": "Sponsor group",
+      "text3": "Sponsor group12",
+      "lastlabel": "Interest group",
+      "lasttext1": "The sports team",
+      "lasttext2": "Photo",
+      "lasttext3": "Tour group"
+    },
+    "howManyAndOwnGender": {
+      "title": "How many?",
+      "labelHowMany": "Max participants",
+      "labelSelectGender": "Only {value}",
+      "checkBoxText": "Only Girls",
+      "inerText": "unlimited",
+      "btnNext": "Next",
+      "labelInfo": "Remember to adhere to local Covid-19 laws and regulations"
+    },
+    "startEndtime": {
+      "title": "When?",
+      "labelSelectEndTime": "Specify end-time?",
+      "btnNext": "Next",
+      "checkBoxText": "Select end time"
+    },
+    "place": {
+      "title": "Where?",
+      "BtnSelectMap": "Pinpoint in map",
+      "MeetOnline": "Meet online",
+      "LabelDesc": "Or describe meeting place here",
+      "btnNext": "Select",
+      "placeName": "parish water",
+      "address": "metro station",
+      "place": "Sognsvann",
+      "football":"Football on the plain",
+      "placeURL": {
+        "title": "Meet online",
+        "labelUrl": "Url",
+        "btnNext": "Next"
+      },
+      "missingFreeText":"Missing place name field",
+      "searchPlace":"Search",
+      "addressTitle":"Adjust the name of the meeting place if you wish"
+    },
+    "Summary": {
+      "title": "Your invite",
+      "tagGrpSummery": " groups from ",
+      "tagTitle": "To: ",
+      "tagMaxAttendieGender1": "Max ",
+      "tagMaxAttendieGender2": " people",
+      "tagMaxAttendieGender3": " Only Girls",
+      "labelFreeText": "Text for invitation (not required)",
+      "body1": "You can easily edit after you have invited!",
+      "body2": "If you change place, time, or cancel, those who have signed up will be notified!",
+      "linkText": "Terms & Guidelines",
+      "btnSave": "Invite!",
+      "Invite1Top": [
+        "Bruns coffee",
+        "Maximum 20 people, girls only"
+      ],
+      "InviteTop": [
+        "6 groups from Høyskolen Fjord og Fjell",
+        "To: a cup of coffee",
+        "Sunday 12 August at 13.30",
+        "Bruns coffee",
+        "Maximum 20 people, girls only"
+      ],
+      "edit": "Edit Your Activity",
+      "Updatebtn": "Update",
+      "cancel": "Cancel Invitation",
+      "delete": "Delete Invitation"
+    },
+    "ConfirmCancel": {
+      "title": "Changed your mind?",
+      "body": "If you cancel the invitation, you have to start over",
+      "BtnYes": "Discard",
+      "BtnNo": "Keep"
+    },
+    "Confirmation": {
+      "Title": "Yeah!",
+      "body": "It means a lot to people that you take initiative!",
+      "btnViewEvent": "See your event"
+    },
+    "Update":{
+       "Title":"Yeah!" ,
+       "body":"Your changes have been published",
+       "alertDelete":"Do you want to delete your activity?",
+       "alertCancel":"Do you want to cancel?"
+    }
+  },
+  "SeActivity": {
+    "link info": "More information on signing up here:",
+    "welcome": "Welcome to the city for a different experience"
+  },
+
+  "Menu": {
+    "labelMyProfile": "My profile",
+    "labelMySettings": "My settings",
+    "labelMyAccess": "My groups",
+    "labelAbout": "About JoinMe",
+    "labelContact": "Contact",
+    "labelSignOut": "Log out",
+    "language": "Language",
+    "ConfirmLanguage": {
+      "title": "Change language",
+      "body": "Do you want to change the app language?",
+      "BtnYes": "Yes",
+      "BtnNo": "Cancel"
+    },
+    "LabelLanguage": {
+      "no": "NO",
+      "en": "EN",
+      "es": "ES",
+      "lableCurve": "Settings"
+    
+    },
+    "MenuAbout": {
+      "title": "About JoinMe",
+      "app": {
+        "title": "JoinMe App",
+        "body": "- gjør det enklere for folk å finne på noe sammen"
+      },
+      "pro": {
+        "title": "JoinMe PRO",
+        "body": "- lar organisasjoner invitere til lukkede arrangementer, og legger til rette for at egne medlemmer selv kan ta initiativ til å møtes."
+      },
+      "local":{
+        "title": "Stay social and local!",
+        "body": "JoinMe is the perfect way to make new friends - if you are new in town, or just up for a fresh start! A simple cup of coffee, a game in the park, a concert or two - with likeminded new people, is maybe just what you need right now!"
+      },
+      "body": "JoinMe is a Norwegian initiative - and we appreciate your feedback.",
+      "org": "Organization number:",
+      "Condtion": "See ",
+      "Condtion2": "terms",
+      "Condtion3": " here",
+      "appVersion": "App version",
+      "buildVersion": "Build version",
+      "Attendeesbtn": "I'll join!"
+    },
+    "MenuContact": {
+      "title": "Contact",
+      "body": "We greatly appreciate any feedback.",
+      "mail": "Send us an email:"
+    },
+    "menuNotifications": {
+      "title": "Settings",
+      "notifications": "Adjust settings for notifications",
+      "language": "Selected language",
+      "darkMode": "Slå på darkMode"
+    },
+    "SettingScreen": {
+      "header" :"Settings",
+      "notification": "Notifications",
+      "Mode" :"Darkmode"
+    }
+
+  },
+  "alertMsg":"Oh no! - Something is not quite right :-("
+}

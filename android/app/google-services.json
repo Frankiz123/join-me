@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "463959258413",
+    "project_id": "joinme-2dcba",
+    "storage_bucket": "joinme-2dcba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463959258413:android:df9097c917cff739ac0fa4",
+        "android_client_info": {
+          "package_name": "com.novalabs.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463959258413-9in2q8rr97eifn95q9j0gmmbmhg5lknb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwuETnkNy-79XgYYwPPdfAB4nv5s-AqtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463959258413-9in2q8rr97eifn95q9j0gmmbmhg5lknb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463959258413:android:ccdeeff5aed3062cac0fa4",
+        "android_client_info": {
+          "package_name": "social.joinme.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463959258413-9in2q8rr97eifn95q9j0gmmbmhg5lknb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwuETnkNy-79XgYYwPPdfAB4nv5s-AqtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463959258413-9in2q8rr97eifn95q9j0gmmbmhg5lknb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

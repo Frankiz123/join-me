@@ -1,0 +1,429 @@
+{
+  "logOn": {
+    "phoneNr": {
+      "textIntro": "Lyst til å finne på noe sammen med andre?",
+      "labelPhoneNr": "Skriv ditt mobilnummer",
+      "linkGdpr": {
+        "Text": "Ved å logge inn godtar du vår",
+        "BtnText": "personvernerklæring"
+      }
+    },
+    "code": {
+      "TextIntro": "Skriv inn kode mottatt på sms",
+      "linkHelp": {
+        "Text": "Ikke fått kode?",
+        "BtnText": "Prøv på nytt"
+      },
+      "btnNext": "Neste",
+      "btnTryAgain": "Prøv igjen",
+      "ErrorText": "Koden stemmer ikke"
+    },
+    "notification": {
+      "title": "JoinMe vil sende deg varslinger",
+      "main": "Varsling kan omfatte lyder og symbolmerker. Disse kan konfigureres i innstillinger.",
+      "no": "Ikke tillat",
+      "yes": "Tillat"
+    },
+    "location": {
+      "title": "Allow Joinme to use Your location",
+      "yes": "Ja",
+      "no": "Nei"
+    }
+  },
+  "firstTime": {
+    "aboutyou": {
+      "title": "Fortell kort om hvem du er",
+      "firstName": "Fornavn",
+      "lastName": "Etternavn",
+      "yearOfBirth": "Hvilket år er du født?",
+      "gender": {
+        "label": "Kjønn",
+        "options": {
+          "female": "Kvinne",
+          "male": "Man",
+          "Other": "annet"
+        }
+      },
+      "photo": "Last opp et profilbilde - hvis du vil",
+      "btnNext": "Neste",
+      "btnAll": "All",
+      "missingFirstName": "Mangler fornavn",
+      "missingLastName": "Mangler etternavn",
+      "btnAll": "Alle",
+      "btnShort1": "Snarvie #1",
+      "btnShort2": "Snarvie #2",
+      "btnShort3": "Snarvie #3"
+    },
+    "getStarted": {
+      "title": "Da er alt klart",
+      "btnActivities": "Finn aktiviteter",
+      "linkLabel": "Invitert inn av en organisasjon?"
+    },
+    "connectToOrganisation": {
+      "findYourOrg": {
+        "firstTitle": "Har du blitt invitert?",
+        "secoundTitle": "Finn din organisasjon",
+        "labelSearch": "Søk etter din organisasjon",
+        "btn": "OK"
+      },
+      "ConfirmConnectionToOrg": {
+        "title": "Du er nå lagt til i organisasjonen ",
+        "btn": "OK"
+      },
+      "chooseGroups": {
+        "title": "Velg {value}",
+        "btn": "Neste"
+      },
+      "allSet": {
+        "title": "Da er alt klart",
+        "btnActivities": "Finn aktiviteter"
+      }
+    }
+  },
+  "myProfile": {
+    "myProfile": {
+      "title": "Min profil",
+      "firstName": "Fornavn",
+      "lastName": "Etternavn",
+      "yearOfBirth": "Hvilket år er du født?",
+      "photo": "Last opp et profilbilde (valgfritt)",
+      "btnSave": "Lagre"
+    },
+    "connectedToOrganisation": {
+      "title": "Min tilhørighet",
+      "linkText": "Invitert inn av en organisasjon?"
+    },
+    "myOrganisationsMyGroups–1": {
+      "linkLeaveOrg": "Forlat org",
+      "nrOfMembers": "medlemmer",
+      "checkBoxWithNrOfMembers": "{valueNameOfGrp} ({valueNrOfMember} medlemmer)",
+      "btnSave": "Lagre"
+    },
+    "welcomeChooseGroups": {
+      "title": "Velg",
+      "btnNext": "Neste"
+    },
+    "myProfileMyGroups–4": {
+      "title": "For alle som har valgt {value} som hoved",
+      "linkLeaveOrg": "Forlat org",
+       "linkLeaveGrp": "Forlat gruppen",
+      "nrOfMembers": " medlemmer"
+    },
+    "groupIsDeleted": {
+      "title": "Gruppen '{value}' er slettet av administrator",
+      "body": "Vi håper likevel dere fortsetter å finne på hyggelige ting sammen",
+      "btn": "OK"
+    },
+        "alertPhoto":{
+      "addPhoto":"Velg profilbilde",
+      "choose":"Velg hvordan du vil legge til bilde",
+      "camera":"Åpne kamera?",
+      "okSettings":"Klikk OK for å gå til innstillinger",
+      "gallery":"Åpne bilder",
+      "accessGallery":"Gi tilgang til “bilder”?",
+      "settingsGallery":"Klikk for å gå til innstillinger",
+      "settings":"Åpne innstillinger",
+      "useCam":"Bruk kamera",
+      "cancel":"Avbryt"
+    }
+  },
+  "activitiesList": {
+    "noInternet":"No connection :-(",
+    "ActivityList": {
+      "title": "Hei,\nhva har du\nlyst til å\nfinne på?",
+      "linkTextMyEvents": "Du er påmeldt ",
+      "sponsorLink": "Tips til steder å møtes",
+      "sponsorLink2": "Du er påmeldt",
+      "orderBy": {
+        "newest": "Sist publisert",
+        "online": "Online",
+        "closest": "närmaste",
+        "nextup": "Event-dato",
+        "distance": "Nærmeste",
+        "latestInvite": "Nyeste "
+      },
+      "card": {
+        "regularActivities": {
+          "titleInv": "{firstName} inviterer {gender}"
+        },
+        "proActivities": {
+          "titleInvLessThenTwoGrps": "{grpHowIsInv} inviterer {grp1} og {grp2}",
+          "titleInvMoreThenTwoGrps": "{grpHowIsInv} inviterer {grp1}, {grp2} + {nrOfOtherGrps} andre"
+        },
+        "SponsoredActivities": {
+          "tagLabel": "Steder å møtes",
+          "titleInv": "{sponsorName} inviterer {grpName}"
+        },
+        "labelTimeToEvent": "Om ",
+        "labelTimeToEvent2": " dager",
+        "labelDistance": "{value} km",
+        "btnNrOfAttendiees": " skal",
+        "btnNrOfAttendieesImAttending": "Du + ",
+        "labelMaxNrOfAttendees": "Max ",
+        "labelMaxNrOfAttendees2":" stk",
+        "status": {
+          "full": "Fullt",
+          "canceled": "Avlyst"
+        }
+      },
+      "emptylist": {
+        "title": "Ingen aktiviteter er tilgjengelig i ditt område akkurat nå…",
+        "titlePermission":"For å se aktiviteter nær deg må du dele din lokasjon med JoinMe",
+        "titleTurnOffLocation":"For å se aktiviteter nær deg må du slå på lokasjon",
+        "body": "Kanskje du kan invitere til en hyggelig aktivitet?",
+        "btnInv": "Kanskje du kan invitere til en hyggelig aktivitet?",
+        "btnPerm":"Del lokasjon",
+        "btnTurn":"Slå på lokasjon",
+        "noevents": "Du er ikke påmeldt noen aktiviteter"
+      }
+    }
+  },
+  "oneActivity": {
+    "activity": {
+      "titleInvLessThenTwoGrps": "{grpHowIsInv} inviterer {grp1} og {grp2}",
+      "titleInvMoreThenTwoGrps": "{grpHowIsInv} inviterer {grp1}, {grp2} + {nrOfOtherGrps} andre",
+      "labelMaxNrOfAttendees": "Max ",
+      "labelMaxNrOfAttendees2": " stk",
+      "labelAttendee": "{value} skal",
+      "btnYouPlus": "You +",
+      "labelComment": "{value} kommentarer",
+      "labelUpdate": "Oppdatert {dd. MMMM yyyy HH:mm}",
+      "labelQuestions": "Spørsmål?",
+      "btnJoinEvent": "Jeg blir med!",
+      "labelImAttending": "Du er påmeldt!",
+      "labelCanceld": "Avlyst",
+      "labelFull": "Fullt",
+      "labelSignOff": "Meld av",
+      "labelCallender": "Legg i kalender",
+      "labelRepport": "Rapporter som upassende",
+      "reasonText":"Er innholdet upassende?",
+      "labelEditEvent": "Endre min aktivitet",
+      "SponsoredActivities": {
+        "tagLabel": "Steder å møtes",
+        "btnConncetedEvent": " inviterer dit",
+        "btnCreateEvent": "Inviter folk med hit!"
+      }
+    },
+    "Comments": {
+      "nrOfComments": "  kommentarer",
+      "btnJoinEvent": "Jeg blir med!",
+      "linkTextTransaltion": "Se oversettelse",
+      "linkTextRepport": "Rapporter som upassende",
+      "reasonText":"Er innholdet upassende?",
+      "reasonTextSuccess":"Takk, vi vil se på saken så raskt som mulig.",
+      "linkTextEditComment": "Endre min kommentar",
+      "linkTextDeleteComment": "Slett min kommentar",
+      "btnPostComment": "Post",
+      "btnOK": "OK",
+      "removed":"Comment removed"
+    },
+    "Attendies": {
+      "btnJoinEvent": "Jeg blir med!"
+    }
+  },
+  "createActivity": {
+    "suggestList": [
+      "Ta en kaffe",
+      "Kino",
+      "Ga en tur",
+      "Trening",
+      "Lunsj",
+      "En ol"
+    ],
+    "buttonList": [
+      "Alle",
+      "#Shortcut1",
+      "#Short2"
+    ],
+    "newList": [
+      "#Shortcut3",
+      "#Short4"
+    ],
+    "Name": {
+      "title": "Inviter!",
+      "labelName": "Hva inviterer du til?",
+      "btnNext": "Neste",
+      "missingName": "Navn på aktivitet mangler"
+    },
+    "detail":{
+      "goingbtn":"Går ikke",
+      "attendingbtn":"du deltar",
+      "joinnow":"bli med!",
+      "updated": "Oppdatert"
+    },
+    "Groups": {
+      "title": "Hvem?",
+      "Textone": "Alle",
+      "Texttwo": "abc",
+      "Textthree": "SIT",
+      "Textfourth":"Alle pa "
+    },
+    "createShortcuts": {
+      "title": "Velg snarveier",
+      "text": "Hoyskolen Fjord og Fjell",
+      "text2": "Rode Kors",
+      "btnOK": "OK",
+      "mineGroup": "Rediger mine grupper"
+    },
+    "Subgroups": {
+      "btnNext": "Neste",
+      "text": "Alle pA Hoyskolen Fjord og Fjell",
+      "label1": "Studie",
+      "text1": "Maskin",
+      "label2": "Linjeforening",
+      "text2": "Maskinstudentene",
+      "label3": "Faddegruppe",
+      "text3": "Faddergruppe12",
+      "lastlabel": "Interessegruppe",
+      "lasttext1": "Iddretslaget",
+      "lasttext2": "Foto",
+      "lasttext3": "Turgruppa"
+    },
+    "howManyAndOwnGender": {
+      "title": "Hvor mange?",
+      "labelHowMany": "Maks antall deltagere",
+      "labelSelectGender": "Kun {value}",
+      "checkBoxText": "kun jenter",
+      "inerText": "ubegrenset",
+      "btnNext": "Neste",
+      "labelInfo": "Husk å hold overholde retningslinjer for smittevern"
+    },
+    "startEndtime": {
+      "title": "Når?",
+      "labelSelectEndTime": "Velg slutttid",
+      "btnNext": "Neste",
+      "checkBoxText": "velg slutttid"
+    },
+    "place": {
+      "title": "Hvor?",
+      "BtnSelectMap": "Velg i kart",
+      "MeetOnline": "Møtes digitalt",
+      "LabelDesc": "Eller beskriv møtested her",
+      "btnNext": "Velg",
+      "place": "Sognsvann",
+      "football":"Fotball på sletta",
+      "address": "t-banestasjon",
+      "placeURL": {
+        "title": "Møtes digitalt",
+        "labelUrl": "Url",
+        "btnNext": "Neste"
+      },
+      "missingFreeText": "Ingen stedsnavn",
+      "searchPlace":"Søk",
+      "addressTitle":"Juster navn på oppmøtested om du ønsker"
+    },
+    "Summary": {
+      "title": "Du inviterer",
+      "tagGrpSummery": " grupper fra ",
+      "tagTitle": "Til: ",
+      "tagMaxAttendieGender1": "Maks ",
+      "tagMaxAttendieGender2": " pers",
+      "tagMaxAttendieGender3": " kun jenter",
+      "labelFreeText": "Tekst til invitasjon (ikke påkrevd)",
+      "body1": "Du kan enkelt redigere etter at du har invitert!",
+      "body2": "Om du endrer sted, tid, eller avlyser vil de som har meldt seg på få beskjed!",
+      "linkText": "Retningslinjer og vilkår",
+      "btnSave": "Inviter!",
+      "Invite1Top": {
+        "4": "Bruns kafe",
+        "5": "Maks 20 pers, kun jenter"
+      },
+      "InviteTop": [
+        "6 groups from Høyskolen Fjord og Fjell",
+        "To: a cup of coffee",
+        "Sunday 12 August at 13.30",
+        "Bruns coffee",
+        "Maximum 20 people, girls only"
+      ],
+      "edit": "Redigere Aktiviteten Din",
+      "Updatebtn": "Oppdater",
+      "cancel": "avbryt invitasjonen",
+      "delete": "slett invitasjonen"
+    },
+    "ConfirmCancel": {
+      "title": "Ombestemt deg?",
+      "body": "Hvis du avbryter invitasjonen må du eventuelt begynne på nytt",
+      "BtnYes": "Forkast",
+      "BtnNo": "Behold"
+    },
+    "Confirmation": {
+      "Title": "Jippi!",
+      "body": "Det betyr mye for mange at du inviterer!",
+      "btnViewEvent": "Se aktiviteten"
+    },
+    "Update":{
+      "Title":"Jippi!",
+      "body":"Endringene dine er publisert",
+      "alertDelete":"Vil du slette din aktivit?",
+      "alertCancel":"Vil du avbryte?"
+    }
+  },
+  "SeActivity": {
+    "link info": "More information on signing up here",
+    "welcome": "Velkommen til byen for en annerledes opplevels"
+  },
+  "Menu": {
+    "labelMyProfile": "Min profil",
+    "labelMySettings": "Mine innstillinger",
+    "labelMyAccess": "Min tilhørighet",
+    "labelAbout": "Om JoinMe",
+    "labelContact": "Kontakt",
+    "labelSignOut": "Logg ut",
+    "language": "Language",
+    "changeLanguageBody": "Vil du endre app-språket?",
+    "changeLanguageTitle": "Skifte språk",
+    "ConfirmLanguage": {
+      "title": "Skifte språk",
+      "body": "Vil du endre app-språket?",
+      "BtnYes": "Ja",
+      "BtnNo": "Avbryt"
+    },
+    "LabelLanguage": {
+      "no": "NO",
+      "en": "EN",
+      "es": "ES",
+      "lableCurve": "Settings"
+    },
+    "MenuAbout": {
+      "title": "Om JoinMe",
+      "app": {
+        "title": "JoinMe App",
+        "body": "- gjør det enklere for folk å finne på noe sammen"
+      },
+      "pro": {
+        "title": "JoinMe PRO",
+        "body": "- lar organisasjoner invitere til lukkede arrangementer, og legger til rette for at egne medlemmer selv kan ta initiativ til å møtes."
+      },
+      "local":{
+        "title": "Om JoinMeStay social and local!",
+        "body": "Gled deg til å bli kjent med nye folk! Er du ny i byen, eller rett og slett klar for litt nye impulser? Kanskje er en kopp kaffe, en øl på brygga, eller en treningsøkt i marka med trivelige folk det du trenger akkurat nå!"
+      },
+      "body": "JoinMe er et norsk initiativ - og vi håper du har tid til å gi oss ris eller ros!",
+      "org": "Organisasjonsnummer:",
+      "Condtion": "Se ",
+      "Condtion2": "vilkår",
+      "Condtion3": " her",
+      "appVersion": "App versjon",
+      "buildVersion": "Build versjon",
+      "Attendeesbtn": "Jeg blir med!",
+      "AttHeader": "Football på sletta"
+    },
+    "MenuContact": {
+      "title": "Kontakt",
+      "body": "Vi setter stor pris på alle tilbakemeldinger.",
+      "mail": "Send oss en epost:"
+    },
+    "menuNotifications": {
+      "title": "Innstillinger",
+      "notifications": "Adjust settings for notifications",
+      "language": "Valgt språk",
+      "darkMode": "Slå på darkMode"
+    },
+    "SettingScreen": {
+      "header": "Innstillinger",
+      "notification": "Varsler",
+      "Mode": "Mørk modus"
+    }
+  },
+  "alertMsg":"Å nei, det er noe som ikke er helt som det skal :-("
+}
